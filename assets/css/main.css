@@ -1,0 +1,359 @@
+body {
+	font: 14px 'Raleway', sans-serif;
+	color: #808080;
+}
+a {
+	text-decoration: none;
+}
+
+/* header -------------------------------------------*/
+
+.wrap-header {
+	background-color: #283F51;
+}
+header {
+	overflow: auto;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+header a {
+	color: #fff;
+}
+header h1 {
+	float: left;
+	width: 40%;
+	font-size: 300%;
+	padding: 20px 20px 20px 30px;
+}
+header h3 {
+	color: #00cc00;
+	margin: 30px;
+	text-align: right;
+}
+header nav {
+	text-align: right;
+	margin: 50px 30px 0 0;
+}
+header ul li {
+	display: inline;
+}
+header nav a {
+	font-size: 80%;
+	margin-left: 10px;
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+
+/* title ----------------------------------------*/
+
+.wrap-title {
+	background-color: #283F51;
+	clear: both;
+}
+.title {
+	padding: 30px 0;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title h2 {
+	color: #00cc00;
+	font-size: 200%;
+}
+.title p {
+	line-height: 2;
+	font-size: 120%;
+	margin: 20px 0;
+	color: #bfbfbf;
+}
+.title a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	margin: 20px auto;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.title a:hover {
+	background-color:  #fff;
+	color: #283F51;
+}
+
+/* footer ---------------------------------------*/
+
+.wrap-footer {
+	background-color: #283F51;
+}
+footer {
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 30px 0;
+}
+footer small {
+	float: left;
+	margin-left: 20px;
+}
+footer nav {
+	float: right;
+	margin-right: 20px;
+}
+footer ul li {
+	display: inline;
+}
+footer a {
+	color: #fff;
+	font-size: 80%;
+	margin-left: 10px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+/* content ------------------------------------------*/
+
+.content {
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 30px 0;
+}
+.content section {
+	width: 30%;
+	margin-right: 2%;
+	float: left;
+}
+.content section:first-child {
+	margin-left: 2%;
+}
+.content section h5 {
+	margin-bottom: 10px;
+}
+.content section img {
+	width: 100%;
+	border-radius: 5px;
+}
+.content section h3 {
+	margin: 10px 0;
+}
+.content a {
+	color: inherit;
+}
+.content a:hover {
+	text-decoration: underline;
+}
+
+/* welcome ----------------------------------*/
+
+.wrap-welcome {
+	background: linear-gradient(to right, #A0D4AF , #F4F1D1);
+}
+.welcome {
+	padding: 30px 0;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.welcome h2 {
+	color: #283F51;
+	font-size: 200%;
+}
+.welcome p {
+	line-height: 2;
+	font-size: 120%;
+	margin: 20px;
+	color: #283F51;
+}
+
+/* speakers --------------------------------------*/
+
+.speakers {
+	padding: 30px 0;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.speaker-info {
+	width: 60%;
+	margin-left: 2%;
+}
+.speakers aside {
+	box-sizing: border-box;
+	float: right;
+	width: 30%;
+	margin: 100px 2% 0;
+	border: 1px solid #808080;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+}
+.speakers h2 {
+	font-size: 150%;
+	margin-bottom: 10px;
+}
+.speakers p {
+	margin: 20px 0;
+	line-height: 1.5;
+}
+.speakers aside img {
+	width: 70%;
+	border-radius: 50%;
+	margin: -70px 0 20px;
+}
+
+/* venue-----------------------------------------------*/
+
+.venues {
+	padding: 30px 0 0 0;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.venue {
+	overflow: auto;
+	padding-bottom: 50px;
+}
+.venue-info {
+	width: 30%;
+	margin-left: 2%;
+}
+.venues aside {
+	box-sizing: border-box;
+	float: right;
+	width: 60%;
+	margin: 0 2%;
+}
+.venues h2 {
+	font-size: 150%;
+	color: #283F51;
+}
+.venues .address {
+	margin-top: 10px;
+}
+.venues .email {
+	margin-top: 20px;
+}
+.venues .email a {
+	color: #283F51;
+}
+.venues .email a:hover {
+	text-decoration: underline;
+}
+.venues iframe {
+	width: 100%;
+	height: 300px;
+}
+
+/* schedule ----------------------------------*/
+
+.schedule {
+	padding: 30px 20px;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.schedule table {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.schedule td {
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+}
+.schedule th {
+	padding: 20px 20px 20px 0;
+	text-align: right;
+}
+.schedule a {
+	color: inherit;
+}
+.schedule a:hover {
+	color: #283F51;
+}
+.schedule h4 {
+	font-size: 120%;
+	color: #283F51;
+}
+.schedule thead th {
+	font-size: 170%;
+	color: #283F51;
+}
+
+/* register ----------------------------------------*/
+
+.register {
+	padding: 30px 20px;
+	min-width: 650px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.register>div {
+	width: 65%;
+	margin-right: 5%;
+}
+.register form {
+	width: 30%;
+	float: right;
+}
+.register label {
+	display: block;
+	width: 100%;
+	color: #638880;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.register input, .register textarea {
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+.register input {
+	padding: 5px;
+}
+.register input[type=number] {
+	width: 60px;
+}
+.register input[type=submit] {
+	border-radius: 5px;
+	background-color: #638880;
+	color: #fff;
+	width: 100px;
+	padding: 10px;
+	font: 14px 'Raleway', sans-serif;
+	text-transform: uppercase; 
+}
+.register h3 {
+	color: #638880;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 130%;
+}
+.register .price {
+	margin-top: 10px;
+}
+.register p {
+	margin-top: 20px;
+}
+.register h4 {
+	font-size: 110%;
+	color: #638880;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.register ul {
+	list-style-type: square;
+	padding-left: 40px;
+	line-height: 1.5;
+}
+
